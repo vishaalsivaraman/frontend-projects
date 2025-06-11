@@ -139,6 +139,10 @@ arrow_forward_ios
         z-index: 11;
         
     }
+    .top a{
+      text-decoration:none;
+      color: black;
+    }
     header{
         display:block;
     }
@@ -476,7 +480,383 @@ box-sizing: border-box;
 margin-bottom: 10px;
 }
 
+/* Responsive Media Queries */
 
+/* Tablet Landscape (1024px and below) */
+@media screen and (max-width: 1024px) {
+  .nav {
+    margin-left: 200px;
+  }
+  
+  .content {
+    width: 90%;
+    font-size: 28px;
+  }
+  
+  .qutoe {
+    width: 40%;
+    margin-left: 55%;
+    font-size: 22px;
+  }
+  
+  .ours {
+    margin-left: 800px;
+  }
+  
+  .wca {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+  
+  .bld {
+    margin-left: 500px;
+    font-size: 22px;
+  }
+  
+  .pasage {
+    margin-left: 500px;
+    width: 700px;
+    font-size: 22px;
+  }
+  
+  .solns {
+    margin-left: 500px;
+  }
+  
+  .defn button {
+    margin-left: 300px;
+  }
+  
+  .pic {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+/* Tablet Portrait (768px and below) */
+@media screen and (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  
+  .nav {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .material-symbols-outlined {
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  
+  .content {
+    width: 95%;
+    font-size: 24px;
+    margin-left: 2.5%;
+  }
+  
+  .blur {
+    height: 700px;
+  }
+  
+  .qutoe {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 200px;
+    font-size: 20px;
+  }
+  
+  .ours {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .wca {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: 95%;
+    margin-left: 2.5%;
+  }
+  
+  .wca img {
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  
+  .wca h1 {
+    margin-left: 0;
+    font-size: 40px;
+    padding: 0 20px;
+  }
+  
+  .lgs {
+    padding: 0 20px;
+  }
+  
+  .bld {
+    display: block;
+    margin-left: 0;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  
+  .pasage {
+    margin-left: 0;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .solns {
+    margin-left: 0;
+  }
+  
+  .projects p, .proj2 p, .fcmg p {
+    font-size: 24px;
+    margin: 15px;
+  }
+  
+  .lory, .plimg, .imgs {
+    width: 300px;
+    height: 300px;
+    margin: 25px auto;
+  }
+  
+  .defn h1 {
+    font-size: 40px;
+    margin-left: 0;
+    display: block;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .defn h1 br {
+    display: none;
+  }
+  
+  .defn button {
+    margin-left: 0;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .pic {
+    margin: 50px 20px;
+    height: 500px;
+  }
+  
+  .yus {
+    text-align: center;
+  }
+  
+  .quote {
+    display: block;
+    margin-left: 0;
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 0 20px;
+  }
+  
+  #spec {
+    display: block;
+  }
+  
+  .secure, .heritage, .advtech {
+    display: block;
+    width: 90%;
+    margin: 30px auto;
+  }
+  
+  .secure img, .heritage img, .advtech img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Mobile (600px and below) */
+@media screen and (max-width: 600px) {
+  .top {
+    font-size: 20px;
+    padding: 10px;
+    position:static;
+  }
+  
+  .nav ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .nav ul li {
+    margin: 5px 0;
+  }
+  
+  .material-symbols-outlined {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  
+  .content {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .blur {
+    height: 600px;
+  }
+  
+  .qutoe {
+    margin-top: 150px;
+    font-size: 18px;
+  }
+  
+  .wca {
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  
+  .wca h1 {
+    font-size: 28px;
+  }
+  
+  .lgs h3 {
+    font-size: 18px;
+  }
+  
+  .bld {
+    font-size: 18px;
+  }
+  
+  .pasage {
+    font-size: 18px;
+  }
+  
+  .projects h2, .proj2 h2, .fcmg h2 {
+    font-size: 24px;
+  }
+  
+  .projects p, .proj2 p, .fcmg p {
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  .lory, .plimg, .imgs {
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+  }
+  
+  .defn h1 {
+    font-size: 28px;
+  }
+  
+  .pic {
+    height: 300px;
+    margin: 30px 10px;
+  }
+  
+  .quote {
+    font-size: 20px;
+  }
+  
+  .secure p, .heritage p, .advtech p {
+    font-size: 18px;
+  }
+  
+  .secure h1, .heritage h1, .advtech h1 {
+    font-size: 24px;
+  }
+}
+
+/* Small Mobile (480px and below) */
+@media screen and (max-width: 480px) {
+  .top {
+    font-size: 16px;
+  }
+  
+  .content {
+    font-size: 18px;
+  }
+  
+  .qutoe {
+    font-size: 16px;
+  }
+  
+  .wca h1 {
+    font-size: 24px;
+  }
+  
+  .bld {
+    font-size: 16px;
+  }
+  
+  .pasage {
+    font-size: 16px;
+  }
+  
+  .projects p, .proj2 p, .fcmg p {
+    font-size: 16px;
+  }
+  
+  .defn h1 {
+    font-size: 24px;
+  }
+  
+  .quote {
+    font-size: 18px;
+  }
+  
+  .lory, .plimg, .imgs {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .pic {
+    height: 250px;
+  }
+}
+
+/* Extra Small Mobile (360px and below) */
+@media screen and (max-width: 360px) {
+  .content {
+    font-size: 16px;
+  }
+  
+  .qutoe {
+    font-size: 14px;
+  }
+  
+  .wca h1 {
+    font-size: 20px;
+  }
+  
+  .projects p, .proj2 p, .fcmg p {
+    font-size: 14px;
+  }
+  
+  .defn h1 {
+    font-size: 20px;
+  }
+  
+  .quote {
+    font-size: 16px;
+  }
+  
+  .secure p, .heritage p, .advtech p {
+    font-size: 16px;
+  }
+  
+  .secure h1, .heritage h1, .advtech h1 {
+    font-size: 20px;
+  }
+}
 </style>
 <script>
   let seg=document.querySelector(".projects");
@@ -509,5 +889,6 @@ margin-bottom: 10px;
   
 
 </script>
-</html>
 
+
+</html> 
